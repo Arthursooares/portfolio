@@ -2,6 +2,8 @@
 
 Portfólio acadêmico e profissional em português, desenvolvido com HTML, CSS e JavaScript, sem etapa de compilação.
 
+Link de acesso: https://Arthursooares.github.io/portfolio/
+
 ## Executar localmente
 
 Na pasta do projeto, execute:
@@ -26,7 +28,7 @@ A navegação móvel pode ser fechada com Escape, ao selecionar um link ou ao cl
 
 ## Publicar
 
-Publique o conteúdo de `dist/` em uma hospedagem estática. Para GitHub Pages, selecione GitHub Actions e utilize um fluxo que envie `dist/` com `actions/upload-pages-artifact` e publique com `actions/deploy-pages`.
+O workflow `.github/workflows/pages.yml` publica o conteúdo de `dist/` no GitHub Pages a cada envio para `main`. Nas configurações do repositório, Pages deve usar GitHub Actions como origem.
 
 ## Conteúdo e créditos
 
@@ -34,4 +36,4 @@ Projetos acadêmicos: PROVERDE, BookRoom, SRP, Toy Story, TAFE e Ruído Ocupacio
 
 Screenshots de projetos acadêmicos são referenciadas do portfólio de Lucas Garcia Lima, com crédito nas páginas. Esses recursos e as fontes do Google Fonts dependem de acesso à internet. A captura de Ruído Ocupacional está em `dist/assets/ruido-ocupacional.png` e pertence ao próprio projeto.
 
-Pendências de conteúdo: screenshots de SRP, Dashboard Financeiro e Guardiã; cargas horárias e algumas datas de certificações; validação dos semestres e das tecnologias utilizadas pessoalmente nos projetos acadêmicos.
+Pendências de conteúdo: screenshots de SRP, Dashboard Financeiro e Guardiã; cargas horárias e algumas datas de certificações; validação das tecnologias utilizadas pessoalmente nos projetos acadêmicos.
