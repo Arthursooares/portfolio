@@ -17,7 +17,7 @@ Abra http://localhost:8766 no navegador.
 Os arquivos em `dist/` são o código-fonte do site e podem ser editados diretamente:
 
 - `index.html`: página principal.
-- Demais arquivos HTML: sete páginas de projetos.
+- Demais arquivos HTML: oito páginas de projetos.
 - `style.css`: identidade visual e regras responsivas.
 - `motion.js`: menu móvel, indicação da seção atual e animações.
 - `assets/arthur.jpeg`: foto do autor.
@@ -30,8 +30,8 @@ Publique o conteúdo de `dist/` em uma hospedagem estática. Para GitHub Pages, 
 
 ## Conteúdo e créditos
 
-Projetos acadêmicos: PROVERDE, BookRoom, SRP, Toy Story e TAFE. Projetos pessoais: Dashboard Financeiro e Guardiã. Cada página aponta para o código da respectiva equipe ou autor; TAFE utiliza Expo Snack.
+Projetos acadêmicos: PROVERDE, BookRoom, SRP, Toy Story, TAFE e Ruído Ocupacional. Projetos pessoais: Dashboard Financeiro e Guardiã. Cada página aponta para o código da respectiva equipe ou autor; TAFE utiliza Expo Snack.
 
-Screenshots de projetos acadêmicos são referenciadas do portfólio de Lucas Garcia Lima, com crédito nas páginas. Esses recursos e as fontes do Google Fonts dependem de acesso à internet.
+Screenshots de projetos acadêmicos são referenciadas do portfólio de Lucas Garcia Lima, com crédito nas páginas. Esses recursos e as fontes do Google Fonts dependem de acesso à internet. A captura de Ruído Ocupacional está em `dist/assets/ruido-ocupacional.png` e pertence ao próprio projeto.
 
 Pendências de conteúdo: screenshots de SRP, Dashboard Financeiro e Guardiã; cargas horárias e algumas datas de certificações; validação dos semestres e das tecnologias utilizadas pessoalmente nos projetos acadêmicos.

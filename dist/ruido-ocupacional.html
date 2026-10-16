@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ruído Ocupacional | Arthur Silva Soares</title>
+<meta name="description" content="Ruído Ocupacional: cadastro de ambientes e sensores com Kotlin, Spring Boot, MariaDB, JWT e Compose Multiplatform. Projeto acadêmico de Arthur Silva Soares.">
+<link rel="stylesheet" href="style.css?v=editorial-3">
+<script src="motion.js" defer>
+</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23101012'/%3E%3Ctext x='9' y='44' font-size='34' font-family='Arial' font-weight='bold' fill='%23ff464f'%3EAS%3C/text%3E%3C/svg%3E">
+</head>
+<body class="project-page">
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+<header class="site-header">
+<nav aria-label="Navegação principal">
+<a class="brand" href="index.html" aria-label="Arthur Silva Soares — início">AS<span>.</span>
+</a>
+<span class="nav-caption">PORTFÓLIO / 2026</span>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">
+<span class="menu-label">Menu</span>
+<span class="menu-lines" aria-hidden="true">
+</span>
+</button>
+<div class="navlinks" id="main-navigation">
+<a href="index.html#projetos" data-section="projetos">Projetos</a>
+<a href="index.html#trajetoria" data-section="trajetoria">Trajetória</a>
+<a href="index.html#formacao" data-section="formacao">Formação</a>
+<a href="index.html#contato" data-section="contato">Contato</a>
+</div>
+</nav>
+</header>
+<main id="conteudo">
+<div class="detailhero">
+<a class="back" href="index.html#projetos">Voltar aos projetos</a>
+<div class="project-position">PROJETO 08 / 08</div>
+<p class="eyebrow">Projeto acadêmico · AV1 · 2026/2</p>
+<h1>Ruído Ocupacional</h1>
+<p>Cadastro de ambientes de trabalho e sensores, desenvolvido na disciplina de Laboratório de Desenvolvimento Multiplataforma da Fatec Itaquera. Uma base para organizar onde cada sensor está instalado em um futuro sistema de monitoramento de ruído ocupacional, relacionado ao ODS 3.</p>
+<div class="tags">
+<span class="tag">Kotlin</span>
+<span class="tag">Spring Boot</span>
+<span class="tag">MariaDB</span>
+<span class="tag">JWT</span>
+<span class="tag">Compose Multiplatform</span>
+</div>
+</div>
+<section>
+<div class="grid">
+<article>
+<h2>O que o projeto entrega</h2>
+<p>Dois CRUDs completos na API: Ambiente e Sensor. Inclui pesquisa parcial por nome, validação dos dados, DTOs e mappers, além de cadastro de usuários e autenticação JWT com Spring Security e senhas protegidas por BCrypt.</p>
+<p>Cada sensor pertence a um ambiente e possui código único. A aplicação impede a exclusão de ambientes com sensores vinculados.</p>
+</article>
+<article class="card">
+<h3>Código e execução</h3>
+<p>Projeto individual de Arthur Silva Soares. O repositório reúne backend, protótipo multiplataforma, testes e instruções para Ubuntu e Windows.</p>
+<div class="actions">
+<a class="button" href="https://github.com/Arthursooares/ruido-ocupacional-av1">Acessar código</a>
+<a class="button secondary" href="https://github.com/Arthursooares/ruido-ocupacional-av1/blob/main/README.md">Como executar</a>
+</div>
+</article>
+</div>
+</section>
+<section>
+<div class="grid">
+<article>
+<h2>Backend persistente</h2>
+<p>Kotlin com Spring Boot, Spring Data JPA e MariaDB. A organização segue as camadas model, repository, service, controller, dto, mapper e security. A demonstração da API utiliza requisições HTTP com token JWT.</p>
+</article>
+<article>
+<h2>Android, Desktop e Web</h2>
+<p>Formulários compartilhados em Kotlin Multiplatform e Compose Multiplatform, com Gravar, Limpar Campos e listagens. O protótipo armazena os dados em memória; a persistência e a autenticação são demonstradas separadamente no backend.</p>
+</article>
+</div>
+</section>
+<section>
+<h2>O protótipo em funcionamento</h2>
+<div class="gallery">
+<img src="assets/ruido-ocupacional.png" alt="Formulário de sensores do Ruído Ocupacional com um sensor cadastrado e vinculado à Sala de máquinas" loading="lazy" width="1773" height="900">
+</div>
+<p>Captura do protótipo Web: cadastro de sensor, seleção de ambiente, botões Gravar e Limpar Campos e listagem dos registros.</p>
+</section>
+<section>
+<h2>Validação e próximos passos</h2>
+<p>Foram validados 10 testes automatizados: 6 unitários do backend, 3 compartilhados do frontend e 1 fluxo de integração HTTP com MariaDB. Os alvos Android, Desktop e Web foram compilados, e os formulários passaram por demonstração manual.</p>
+<p>A etapa atual cobre os cadastros. Integração com ESP32 e MQTT, coleta de ruído e modelo preditivo são possibilidades de evolução e ainda não estão implementados.</p>
+</section>
+<nav class="project-pagination" aria-label="Navegar pelos projetos">
+<a href="guardia.html">
+<span>Projeto anterior</span>
+<strong>Guardiã</strong>
+</a>
+<a class="all-projects" href="index.html#projetos">Todos os projetos</a>
+<a href="proverde.html">
+<span>Próximo projeto</span>
+<strong>PROVERDE</strong>
+</a>
+</nav>
+</main>
+<footer>
+<a class="footer-signature" href="index.html">Arthur Silva Soares<span>.</span>
+</a>
+<span>Desenvolvimento · Automação · Dados</span>
+<a href="#conteudo" class="back-top">Voltar ao início</a>
+</footer>
+</body>
+</html>
